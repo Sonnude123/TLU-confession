@@ -21,7 +21,7 @@ class PagesController extends Controller
     function postDangnhap(Request $request){
       	$this->validate($request,
     	[
-    		'email'=>'required|max:255|regex: (^[a-z][a-z0-9_\.]{2,32}@vmo.vn$)',
+    		'email'=>'required|max:255|regex: (^[a-z][a-z0-9_\.]{2,32}@wru.vn$)',
     		'password'=>'required|min:3|max:18'
     	]
     	,[

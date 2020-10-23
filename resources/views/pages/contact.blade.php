@@ -13,7 +13,7 @@
 
         <div class="col-md-9">
             <div class="panel panel-default">
-                <div class="panel-heading" style="background-color:#337AB7; color:white;">
+                <div class="panel-heading" style="background-color:black; color:white;">
                     <h2 style="margin-top:0px; margin-bottom:0px;">Liên hệ</h2>
 
                 </div>
@@ -31,7 +31,7 @@
                             <path fill-rule="evenodd"
                                 d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
                         </svg>
-                        <span>: info@vmodev.com</span>
+                        <span>: info@wru.vn</span>
                         <hr>
                 </div>
                 <div>
@@ -47,7 +47,7 @@
                             <path fill-rule="evenodd"
                                 d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
                         </svg>
-                        <span>: infojp@vmodev.com</span>
+                        <span>: infojp@wru.vn</span>
                 </div>
 
 

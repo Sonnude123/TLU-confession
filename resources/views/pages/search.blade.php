@@ -22,7 +22,7 @@
 
         <div class="col-md-9">
             <div class="panel panel-default">
-                <div class="panel-heading" style="background-color:#337AB7; color:white;">
+                <div class="panel-heading" style="background-color:black; color:white;">
                     <h2 style="margin-top:0px; margin-bottom:0px;">Kết quả: {{$keyword}}</h2>
                 </div>
                 @if(count($post) == 0)

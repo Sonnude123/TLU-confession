@@ -87,7 +87,7 @@ class UserController extends Controller
     public function postThem(REQUEST $request){
         $this->validate($request,[
             'name' => 'required|min:3',
-            'email'=>'required|max:255|min:10|regex: (^[a-z][a-z0-9_\.]{0,32}@vmo.vn$)|unique:users,email',
+            'email'=>'required|max:255|min:10|regex: (^[a-z][a-z0-9_\.]{0,32}@wru.vn$)|unique:users,email',
             'password' => 'required|min:3|max:32',
             'passwordAgain' => 'required|same:password'
         ],[

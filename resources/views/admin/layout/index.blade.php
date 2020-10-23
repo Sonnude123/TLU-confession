@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
 
-    <title>Admin - Vmo confession</title>
+    <title>Admin - TLU confession</title>
 
 
     {{-- khai báo đường dẫn trong đây --}}

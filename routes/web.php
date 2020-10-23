@@ -69,10 +69,6 @@ Route::post('nguoidung',[PagesController::class,'postNguoiDung']);
 
 Route::get('chitietbaipost/{id}',[ChiTietBaiPostController::class,'getChitiet']);
 Route::get('dangxuat',[PagesController::class,'getDangXuat']);
-});
-
-
-
 
 Route::post('comment/{id}',[ChiTietBaiPostController::class,'postComment']);
 Route::post('repcomment/{idcm}/{idpost}',[ChiTietBaiPostController::class,'postRepComment']);
@@ -94,6 +90,9 @@ Route::get('dalikecommentrep/{id}',[AjaxLikeController::class,'getDaLikeCommentR
 
 Route::get('dislikecommentrep/{id}',[AjaxLikeController::class,'getdisLikeCommentRep']);
 Route::get('dadislikecommentrep/{id}',[AjaxLikeController::class,'getDadisLikeCommentRep']);
+
+});
+
 
 Route::group(['prefix'=>'admin','middleware'=>'adminlogin'],function(){
     Route::group(['prefix'=>'post'],function(){

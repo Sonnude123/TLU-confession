@@ -45,8 +45,8 @@ class ChiTietBaiPostController extends Controller
         'postMoinhat'=>$postMoinhat]);
     }
 
-    public function postComment($idPost,Request $request){
-        $this->validate($request,
+    public function posidPost,Request $request){
+        $this->validate($request,tComment($
        [
            'NoiDung'=>'required'
         ], 
